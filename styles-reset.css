@@ -1,0 +1,29 @@
+/* ====== styles reset ======= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* tags */
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  min-width: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
